@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "Id": {
+      "type": "integer",
+      "format": "int64"
+    },
+    "FileIngestionId": {
+      "type": "integer",
+      "format": "int64"
+    },
+    "DocumentId": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "format": "int64"
+    },
+    "EstateReferenceNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "IdentityNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FirstName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SecondName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ThirdName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FourthName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FifthName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Surname": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TitleId": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "DateOfBirth": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "Address": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "HomePhoneNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "WorkPhoneNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MobilePhoneNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "EmailAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CreatedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CreatedDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "LastModifiedBy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastModifiedDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

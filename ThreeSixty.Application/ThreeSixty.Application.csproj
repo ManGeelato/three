@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IncidentStatus\Queries\GetAllIIncidentQueries.cs" />
+    <Compile Remove="IncidentStatus\Queries\GetAllIncidentStatusQueries.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThreeSixty.Data\ThreeSixty.Data.csproj" />
+    <ProjectReference Include="..\ThreeSixty.Dto\ThreeSixty.Dto.csproj" />
+    <ProjectReference Include="..\ThreeSixty.Services.Interface\ThreeSixty.Services.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

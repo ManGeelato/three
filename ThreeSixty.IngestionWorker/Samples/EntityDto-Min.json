@@ -1,0 +1,24 @@
+{
+  "mrnnumber": "MRN00000001",
+  "firstName": "John",
+  "lastNane": "Smith",
+  "dateOfBirth": "1976-10-10",
+  "address": "1 Smats Drive, UXV, Hatfield",
+  "documents": [
+    {
+      "documentTypeId": 1,
+      "title": "H123456-Investigation and Reports",
+      "fileName": "H123456-Investigation and Reports.pdf",
+      "documentDate": "2022-01-01",
+      "pageCount": 10
+    },
+    {
+      "documentTypeId": 1,
+      "title": "H123456-Nursing Notes",
+      "fileName": "H123456-Nursing Notes.pdf",
+      "documentDate": "2022-10-01",
+      "pageCount": 30
+    }
+  ]
+}
+

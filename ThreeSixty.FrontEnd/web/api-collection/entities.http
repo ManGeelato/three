@@ -1,0 +1,6 @@
+@baseUrl = https://localhost:7244/api
+
+# Entities
+
+# @name getEntities
+GET {{baseUrl}}/entities?_limit=10&_page=1
